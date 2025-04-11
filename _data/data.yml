@@ -1,4 +1,4 @@
-#
+iew#
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 
@@ -243,14 +243,14 @@ publications:
     conference: "Comm. ACM 4 (1961), 51–55"
 
 recommendations:
-  title: Recommendations
+  title: Reviews
   list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
+  - person: Matt Emmott
+    # email: perezyareli@example.com
+    # phone: 012 345 6789
+    # role: General Director at example.com
     recommendation: |
-      Alan Doe is a super employee!
+      Almost indispensable at this point
   - person: Lara Henderson
     email: larah@example.com
     phone: 012 345 6789
