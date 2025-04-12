@@ -9,13 +9,13 @@
 
     {% if sidebar.android %}
     <li class="android"><i class="fa-brands fa-android"></i>
-      <a href="{{ sidebar.website }}" target="_blank">{{ sidebar.android }}</a>
+      <a href="{{ sidebar.android-link }}" target="_blank">{{ sidebar.android-name }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.ios %}
     <li class="ios"><i class="fa-brands fa-app-store-ios"></i>
-      <a href="{{ sidebar.website }}" target="_blank">{{ sidebar.ios }}</a>
+      <a href="{{ sidebar.ios-link }}" target="_blank">{{ sidebar.ios-name }}</a>
     </li>
     {% endif %}
 
